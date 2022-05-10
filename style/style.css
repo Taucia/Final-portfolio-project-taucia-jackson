@@ -432,9 +432,8 @@ h2 {
     linear-gradient(
       rgba(67, 13, 105, 0.45), 
       rgba(50, 14, 84, 0.45)
-    ),
-    /* bottom, image */
-    url( ../images/testimonial\ purple.jpg);
+    );
+   
 background-size: cover;
 background-repeat: no-repeat;
 object-position:10px 10px;

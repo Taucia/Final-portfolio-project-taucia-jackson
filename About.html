@@ -1,223 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-     <title>About</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>About</title>
 </head>
-<body class="body2 fixed-top">
-    <nav id='menu'>
-        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a class='dropdown-arrow' href="about.html">About</a>
-            <ul class='sub-menus'>
-              <li><a href="">Work Experience</a></li>
-              <li><a href="">Education</a></li>
-            </ul>
-          </li>
-          <li><a class='dropdown-arrow' href="skills.html">Skills</a>
-            <ul class='sub-menus'>
-              <li><a href="">Projects</a></li>
-              <li><a href="">Testimonials</a></li>
-            </ul>
-          </li>
-          <li><a href="contact form.html">Contact</a></li>
+
+<body class="body3 min-vh-100">
+  <nav id='menu' class="position-sticky top-0">
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a class='dropdown-arrow' href="about.html">About</a>
+        <ul class='sub-menus'>
+          <li><a href="">Work Experience</a></li>
+          <li><a href="">Education</a></li>
         </ul>
-      </nav>
-      
-      <div class="container">
-        <h1 class="title">About</h1>
-        <div class="row ">
-          <div id="card1" class="card col-2">
-            <div class="image-wrapper"></div>
-            <h3 class="name">Taucia Jackson</h3>
-            <div class="info">
-            </div> 
+      </li>
+      <li><a class='dropdown-arrow' href="skills.html">Skills</a>
+        <ul class='sub-menus'>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Testimonials</a></li>
+        </ul>
+      </li>
+      <li><a href="contact form.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- nav ends here -->
+  <!-- card starts here -->
+  <div class="container bg-dark  text-white  align-text-center text-capitalize ">
+    <img id="img" src="images/taucia.png" alt="profile picture" class="rounded-circle align-items-md-start" width="200" height="250">
+    <div class="container align-content-center">
+    <h2>Taucia Jackson</h2>
+</div>
+    <hr>
+  </div>
+  <div class="container bg-dark align-items-center text-center">
+    <div class="main-body ">
+      <div class="row d-flex flex-column align-items-center text-center text-white  ">
+        <div class=" bg-dark text-white align-items-center text-center  ">
+
+          <!-- <div class="card mb-3 bg-danger  "> -->
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Full Name</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                Taucia Jackson
+              </div>
             </div>
-           
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Date of Birth</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                19/03/2000
+              </div>
             </div>
-          </div>
-      
-          <div id="card2" class="card col-3 ">
-            <div class="header"></div>
-            <div class="wrapper">
-              <div class="image-wrapper"></div>
-              <h3 class="name">Taucia Jackson</h3>
-              <div class="social ">
-                <div class="col-2">
-                  <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Email</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                taucia.jackson123@gmail.com
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Phone</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                084-357-8830
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">Address</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                Western Cape, Cape Town, SA
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <h6 class="mb-0">GITHUB</h6>
+              </div>
+              <div class="col-sm-9 text-secondary">
+                https://github.com/Taucia
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <h6 class="mb-0">Linkdin</h6>
                 </div>
-                <div class=" col-2">
-                  <a href="#"><i class="fa fa-linkdin" aria-hidden="true"></i></a>
+                <div class="col-sm-9 text-secondary">
+                  https://www.linkedin.com/in/taucia-jackson-a17a29205/
                 </div>
-                <div class=" col-2">
-                  <a href="#"><i class="fa fa-netifly" aria-hidden="true"></i></a>
-                </div>
-              </div>
-              <div class="info">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aspernatur, mollitia suscipit perspiciatis minima reprehenderit quasi consectetur.</p>
-              </div>
-            </div>
-          </div>
-      
-          <div id="card3" class="card ">
-            <div class="header"></div>
-            <div class="wrapper">
-              <h2 class="name and Surname">Taucia Jackson</h2>
-            </div>
-            <div class="info ">
-              <div class="col-2">
-                <div class="number">17</div>
-        
-              </div>
-              <div class="col-2">
-                <div class="Age">22 years old</div>
-              </div>
-              <div class="col-2">
-                <div class="Date of birth">19/03/2000</div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      .social
-      a(href="https://twitter.com/meowlivia_" target="_blank")
-        i.icon-social-twitter.icons
-      a(href="https://github.com/oliviale" target="_blank")
-        i.icon-social-github.icons
-      a(href="https://dribbble.com/oliviale" target="_blank")
-        i.icon-social-dribbble.icons
+    </div>
+  </div>
+
+  <!-- card ends here -->
+  <!-- timeline work experience -->
+<hr>
   
-
-<!-- timeline -->
-
-<h2>Super Simple Bootstrap Responsive Timeline</h2>
-
-<ul class="timeline">
+<div class="container" >
+  <ul class="timeline bg-dark">
     <li>
-        <div class="timeline-badge">
-          <a><i class="fa fa-circle" id=""></i></a>
+      <h2>
+        Work Experience
+      </h2>
+      <div class="timeline-badge">
+        <a><i class="fa fa-circle" id=""></i></a>
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4>Catering</h4>
         </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.</p>
-            </div>
-            <div class="timeline-footer">
-                <p class="text-right">Feb-21-2014</p>
-            </div>
+        <div class="timeline-body">
+          <p>Catering at La Elagante</p>
         </div>
+        <div class="timeline-footer">
+          <p class="text-right">2018</p>
+        </div>
+      </div>
     </li>
+
+   
+
+    <li> 
+      <div class="timeline-badge">
+        <a><i class="fa fa-circle" id=""></i></a>
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4>Woolworths</h4>
+        </div>
+        <div class="timeline-body">
+          <p>Worked at woolworths </p>
+        </div>
+        <div class="timeline-footer">
+          <p class="text-right">Nov-2018 till Dec-2018</p>
+        </div>
+      </div>
+    </li>
+
+    
     
     <li class="timeline-inverted">
-        <div class="timeline-badge">
-            <a><i class="fa fa-circle invert" id=""></i></a>
+      <div class="timeline-badge">
+        <a><i class="fa fa-circle invert" id=""></i></a>
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4>Internship</h4>
         </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Stranguillione in deinde cepit roseo commendavit patris super color est se sed. Virginis plus plorantes abscederem assignato ipsum ait regem Ardalio nos filiae Hellenicus mihi cum. Theophilo litore in lucem in modo invenit quasi nomen magni ergo est se est Apollonius, habet clementiae venit ad nomine sed dominum depressit filia navem.</p>
-            </div>
-            <div class="timeline-footer">
-                <p class="text-right">Feb-23-2014</p>
-            </div>
+        <div class="timeline-body">
+          <p>Printing SA Internship <p>
         </div>
-    </li>
-    
-    <li>
-        <div class="timeline-badge">
-            <a><i class="fa fa-circle" id=""></i></a>
+        <div class="timeline-footer primary">
+          <p class="text-right">April-2018 till September-2018</p>
         </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris accedens.</p>
-            </div>
-            <div class="timeline-footer">
-                <p class="text-right">Feb-23-2014</p>
-            </div>
-        </div>
-    </li>
-    
-    <li class="timeline-inverted">
-        <div class="timeline-badge">
-            <a><i class="fa fa-circle invert" id=""></i></a>
-        </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Volvitur ingreditur id ait mea vero cum autem quod ait Cumque ego illum vero cum unde beata. Commendavi si non dum est in. Dionysiadem tuos ratio puella ut casus, tunc lacrimas effunditis magister cives Tharsis. Puellae addita verbaque' capellam sanctissima quid, apollinem existimas filiam rex cum autem quod tamen adnuente rediens eam est se in. Peracta licet ad nomine Maria non ait in modo compungi mulierem volutpat.</p>
-            </div>
-            <div class="timeline-footer">
-                <p class="text-right">Feb-27-2014</p>
-            </div>
-        </div>
-    </li>
-    
-    <li>
-        <div class="timeline-badge">
-            <a><i class="fa fa-circle" id=""></i></a>
-        </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Adfertur guttae sapientiae ducitur est Apollonius ut a a his domino Lycoridem in lucem. Theophile atque bona dei cenam veniebant est cum. Iusto opes mihi Tyrum in modo compungi mulierem ubi augue eiusdem ordo quos vero diam omni catervis famulorum. Bene dictis ut diem finito servis unde.</p>
-            </div>
-            <div class="timeline-footer">
-                <p class="text-right">Mar-01-2014</p>
-            </div>
-        </div>
-    </li>
-    
-    <li  class="timeline-inverted">
-        <div class="timeline-badge">
-            <a><i class="fa fa-circle invert" id=""></i></a>
-        </div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Timeline Event</h4>
-            </div>
-            <div class="timeline-body">
-                <p>Crede respiciens loco dedit beneficio ad suis alteri si puella eius in. Acceptis codicello lenonem in deinde plectrum anni ipsa quod eam est Apollonius.</p>
-            </div>
-            <div class="timeline-footer primary">
-                <p class="text-right">Mar-02-2014</p>
-            </div>
-        </div>
+      </div>
     </li>
     <li class="clearfix no-float"></li>
-</ul>
+  </ul>
+</div>
+ 
 
-<p class="footer">Icons by <a href="https://fortawesome.github.io/Font-Awesome/">FontAwesome 4.1 Icons</a>.<br />
-  Created by <a href="http://jenniferperrin.com">Jennifer Perrin</a>
-</p>
-
-
-
+<!-- work experience ends here -->
+<!-- education starts here -->
 
  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<div class="container">
+  <ul class="timeline bg-dark">
+    <li>
+      <h2>
+        Education
+      </h2>
+      <div class="timeline-badge">
+        <a><i class="fa fa-circle" id=""></i></a>
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4>Matriculated</h4>
+        </div>
+        <div class="timeline-body">
+          <p>Matriculated at Princeton Secondary High School</p>
+        </div>
+        <div class="timeline-footer">
+          <p class="text-right">Jan-2013 till Dec-2017</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="timeline-inverted">
+    
+      <div class="timeline-badge">
+        <a><i class="fa fa-circle invert" id=""></i></a>
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4>National Vocational Certificate</h4>
+        </div>
+        <div class="timeline-body">
+          <p>Studied Primary health Care at College of Cape Town</p>
+        </div>
+        <div class="timeline-footer">
+          <p class="text-right">Jan-2019 till Dec-2021</p>
+        </div>
+      </div>
+    </li>
+
    
+    <li class="clearfix no-float"></li>
+  </ul>
+</div>
+
+<!-- education ends here -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
 </body>
 <footer class="footer fixed-bottom">
-    <span class="copyright">&copy Taucia jackson 2022</span>
+  <span class="copyright">&copy Taucia jackson 2022</span>
 
-  </footer>
+</footer>
 
 </html>
